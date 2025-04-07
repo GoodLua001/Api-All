@@ -1,5 +1,5 @@
 getgenv().Rip = function()
-    local url = 'https://donebell.vercel.app/api/Rip'
+    local url = 'https://xeterapi.vercel.app/api/Rip'
     local chooses
     local foundServers = game:GetService('HttpService'):JSONDecode(game:HttpGet(url))
     for i, v in foundServers do
